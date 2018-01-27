@@ -23,7 +23,7 @@ msgid "(%d minute window, %d second interval)"
 msgstr "(%d 분 window, %d 초 간격)"
 
 msgid "(%s available)"
-msgstr ""
+msgstr "(%s 사용 가능)"
 
 msgid "(empty)"
 msgstr ""
@@ -32,22 +32,22 @@ msgid "(no interfaces attached)"
 msgstr ""
 
 msgid "-- Additional Field --"
-msgstr ""
+msgstr "-- 추가 항목 --"
 
 msgid "-- Please choose --"
-msgstr ""
+msgstr "-- 선택하십시오 --"
 
 msgid "-- custom --"
-msgstr ""
+msgstr "-- 임의 설정 --"
 
 msgid "-- match by device --"
-msgstr ""
+msgstr "-- 장치로 지정 --"
 
 msgid "-- match by label --"
-msgstr ""
+msgstr "-- 레이블로 지정 --"
 
 msgid "-- match by uuid --"
-msgstr ""
+msgstr "-- UUID로 지정 --"
 
 msgid "1 Minute Load:"
 msgstr "1 분 부하:"
@@ -68,7 +68,7 @@ msgid "6-octet identifier as a hex string - no colons"
 msgstr ""
 
 msgid "802.11r Fast Transition"
-msgstr ""
+msgstr "802.11r 고속 로밍"
 
 msgid "802.11w Association SA Query maximum timeout"
 msgstr ""
@@ -77,19 +77,19 @@ msgid "802.11w Association SA Query retry timeout"
 msgstr ""
 
 msgid "802.11w Management Frame Protection"
-msgstr ""
+msgstr "802.11w 관리 프레임 보호"
 
 msgid "802.11w maximum timeout"
-msgstr ""
+msgstr "802.11w 최대 타임아웃 시간"
 
 msgid "802.11w retry timeout"
-msgstr ""
+msgstr "802.11w 재시도 시간"
 
 msgid "<abbr title=\"Basic Service Set Identifier\">BSSID</abbr>"
 msgstr ""
 
 msgid "<abbr title=\"Domain Name System\">DNS</abbr> query port"
-msgstr "<abbr title=\"Domain Name System\">DNS</abbr> query 포트"
+msgstr "<abbr title=\"Domain Name System\">DNS</abbr> 쿼리 포트"
 
 msgid "<abbr title=\"Domain Name System\">DNS</abbr> server port"
 msgstr "<abbr title=\"Domain Name System\">DNS</abbr> 서버 포트"
@@ -97,7 +97,8 @@ msgstr "<abbr title=\"Domain Name System\">DNS</abbr> 서버 포트"
 msgid ""
 "<abbr title=\"Domain Name System\">DNS</abbr> servers will be queried in the "
 "order of the resolvfile"
-msgstr ""
+msgstr "resolvfile의 순서대로 <abbr title=\"Domain Name System\">DNS</abbr>"
+"서버에 질의 합니다."
 
 msgid "<abbr title=\"Extended Service Set Identifier\">ESSID</abbr>"
 msgstr ""
@@ -106,21 +107,23 @@ msgid "<abbr title=\"Internet Protocol Version 4\">IPv4</abbr>-Address"
 msgstr "<abbr title=\"Internet Protocol Version 4\">IPv4</abbr>-주소"
 
 msgid "<abbr title=\"Internet Protocol Version 4\">IPv4</abbr>-Gateway"
-msgstr ""
+msgstr "<abbr title=\"Internet Protocol Version 4\">IPv4</abbr>-게이트웨이"
 
 msgid "<abbr title=\"Internet Protocol Version 4\">IPv4</abbr>-Netmask"
-msgstr ""
+msgstr "<abbr title=\"Internet Protocol Version 4\">IPv4</abbr>-넷마스크"
 
 msgid ""
 "<abbr title=\"Internet Protocol Version 6\">IPv6</abbr>-Address or Network "
 "(CIDR)"
 msgstr ""
+"<abbr title=\"Internet Protocol Version 6\">IPv6</abbr>-주소 또는 네트워크 "
+"(CIDR)"
 
 msgid "<abbr title=\"Internet Protocol Version 6\">IPv6</abbr>-Gateway"
-msgstr ""
+msgstr "<abbr title=\"Internet Protocol Version 6\">IPv6</abbr>-게이트웨이"
 
 msgid "<abbr title=\"Internet Protocol Version 6\">IPv6</abbr>-Suffix (hex)"
-msgstr ""
+msgstr "<abbr title=\"Internet Protocol Version 6\">IPv6</abbr>-Suffix (16진수)"
 
 msgid "<abbr title=\"Light Emitting Diode\">LED</abbr> Configuration"
 msgstr "<abbr title=\"Light Emitting Diode\">LED</abbr> 설정"
@@ -139,7 +142,7 @@ msgid ""
 "Protocol\">DHCP</abbr> leases"
 msgstr ""
 "<abbr title=\"maximal\">최대</abbr> <abbr title=\"Dynamic Host Configuration "
-"Protocol\">DHCP</abbr> lease 수"
+"Protocol\">DHCP</abbr> 임대 수"
 
 msgid ""
 "<abbr title=\"maximal\">Max.</abbr> <abbr title=\"Extension Mechanisms for "
@@ -149,7 +152,7 @@ msgstr ""
 "Domain Name System\">EDNS0</abbr> 패킷 크기"
 
 msgid "<abbr title=\"maximal\">Max.</abbr> concurrent queries"
-msgstr "<abbr title=\"maximal\">최대</abbr> 동시 처리 query 수"
+msgstr "<abbr title=\"maximal\">최대</abbr> 병렬 처리 쿼리 수"
 
 msgid "<abbr title='Pairwise: %s / Group: %s'>%s - %s</abbr>"
 msgstr ""
@@ -157,7 +160,8 @@ msgstr ""
 msgid ""
 "<br/>Note: you need to manually restart the cron service if the crontab file "
 "was empty before editing."
-msgstr ""
+msgstr "주의: 편집 전 crontab 파일이 비어있을 경우 수동으로 cron 서비스를"
+"다시 시작할 필요가 있습니다."
 
 msgid "A43C + J43 + A43"
 msgstr ""
@@ -178,19 +182,19 @@ msgid "APN"
 msgstr ""
 
 msgid "ARP retry threshold"
-msgstr ""
+msgstr "ARP 재시도 임계치"
 
 msgid "ATM (Asynchronous Transfer Mode)"
-msgstr ""
+msgstr "ATM (비동기 전송 방식)"
 
 msgid "ATM Bridges"
-msgstr ""
+msgstr "ATM 브릿지"
 
 msgid "ATM Virtual Channel Identifier (VCI)"
-msgstr ""
+msgstr "ATM 가상 채널 식별자 (VCI)"
 
 msgid "ATM Virtual Path Identifier (VPI)"
-msgstr ""
+msgstr "ATM 가상 패스 식별자 (VPI)"
 
 msgid ""
 "ATM bridges expose encapsulated ethernet in AAL5 connections as virtual "
@@ -199,10 +203,10 @@ msgid ""
 msgstr ""
 
 msgid "ATM device number"
-msgstr ""
+msgstr "ATM 디바이스 번호"
 
 msgid "ATU-C System Vendor ID"
-msgstr ""
+msgstr "ATU-C 시스템 벤더 ID"
 
 msgid "AYIYA"
 msgstr ""
@@ -211,24 +215,24 @@ msgid "Access Concentrator"
 msgstr ""
 
 msgid "Access Point"
-msgstr ""
+msgstr "액세스 포인트"
 
 msgid "Actions"
-msgstr "관리 도구"
+msgstr "작동"
 
 msgid "Activate this network"
-msgstr "이 네트워를 활성화합니다"
+msgstr "이 네트워크를 활성화합니다"
 
 msgid "Active <abbr title=\"Internet Protocol Version 4\">IPv4</abbr>-Routes"
 msgstr ""
-"Active <abbr title=\"Internet Protocol Version 4\">IPv4</abbr>-Route 경로"
+"Active <abbr title=\"Internet Protocol Version 4\">IPv4</abbr>-라우팅 경로"
 
 msgid "Active <abbr title=\"Internet Protocol Version 6\">IPv6</abbr>-Routes"
 msgstr ""
-"Active <abbr title=\"Internet Protocol Version 6\">IPv6</abbr>-Route 경로"
+"Active <abbr title=\"Internet Protocol Version 6\">IPv6</abbr>-라우팅 경로"
 
 msgid "Active Connections"
-msgstr "활성 연결수"
+msgstr "활성 연결 수"
 
 msgid "Active DHCP Leases"
 msgstr "활성 DHCP 임대 목록"
@@ -249,16 +253,16 @@ msgid "Add new interface..."
 msgstr "새로운 인터페이스 추가..."
 
 msgid "Additional Hosts files"
-msgstr "추가적인 Hosts 파일들"
+msgstr "추가적인 Hosts 파일"
 
 msgid "Additional servers file"
-msgstr ""
+msgstr "추가적인 서버 파일"
 
 msgid "Address"
 msgstr "주소"
 
 msgid "Address to access local relay bridge"
-msgstr ""
+msgstr "로컬 릴레이 브릿지에 접속하기 위한 주소"
 
 msgid "Administration"
 msgstr "관리"
@@ -270,33 +274,33 @@ msgid "Aggregate Transmit Power(ACTATP)"
 msgstr ""
 
 msgid "Alert"
-msgstr ""
+msgstr "경고"
 
 msgid ""
 "Allocate IP addresses sequentially, starting from the lowest available "
 "address"
-msgstr ""
+msgstr "순차적으로 IP 주소를 확보합니다. 유효한 최저 주소부터 확보합니다."
 
 msgid "Allocate IP sequentially"
-msgstr ""
+msgstr "순차적 IP 확보"
 
 msgid "Allow <abbr title=\"Secure Shell\">SSH</abbr> password authentication"
 msgstr "<abbr title=\"Secure Shell\">SSH</abbr> 암호 인증을 허용합니다"
 
 msgid "Allow all except listed"
-msgstr ""
+msgstr "목록 내 요소를 제외하고 모두 허가"
 
 msgid "Allow legacy 802.11b rates"
 msgstr ""
 
 msgid "Allow listed only"
-msgstr ""
+msgstr "목록 내 요소 허가"
 
 msgid "Allow localhost"
-msgstr ""
+msgstr "로컬 호스트 허용"
 
 msgid "Allow remote hosts to connect to local SSH forwarded ports"
-msgstr ""
+msgstr "원격 호스트가 SSH로 로컬 포트에 연결하는 것을 허용"
 
 msgid "Allow root logins with password"
 msgstr "암호를 이용한 root 접근 허용"
@@ -306,10 +310,10 @@ msgstr "암호를 이용한 <em>root</em> 사용자 접근을 허용합니다"
 
 msgid ""
 "Allow upstream responses in the 127.0.0.0/8 range, e.g. for RBL services"
-msgstr ""
+msgstr "127.0.0.0/8 범위에서 업스트림 응답을 허용합니다. 예) RBS 서비스에 사용"
 
 msgid "Allowed IPs"
-msgstr ""
+msgstr "허가된 IP 주소"
 
 msgid ""
 "Also see <a href=\"https://www.sixxs.net/faq/connectivity/?faq=comparison"
@@ -377,48 +381,48 @@ msgid "Anonymous Identity"
 msgstr ""
 
 msgid "Anonymous Mount"
-msgstr ""
+msgstr "익명 마운트"
 
 msgid "Anonymous Swap"
-msgstr ""
+msgstr "익명 스왑"
 
 msgid "Antenna 1"
-msgstr ""
+msgstr "안테나 1"
 
 msgid "Antenna 2"
-msgstr ""
+msgstr "안테나 2"
 
 msgid "Antenna Configuration"
-msgstr ""
+msgstr "안테나 설정"
 
 msgid "Any zone"
-msgstr ""
+msgstr "모든 지역"
 
 msgid "Apply"
 msgstr "적용"
 
 msgid "Applying changes"
-msgstr ""
+msgstr "변경 적용중"
 
 msgid ""
 "Assign a part of given length of every public IPv6-prefix to this interface"
 msgstr ""
 
 msgid "Assign interfaces..."
-msgstr ""
+msgstr "인터페이스 할당..."
 
 msgid ""
 "Assign prefix parts using this hexadecimal subprefix ID for this interface."
-msgstr ""
+msgstr "이 인터페이스의 16진수 subprefix를 사용하여 prefix를 할당합니다."
 
 msgid "Associated Stations"
 msgstr "연결된 스테이션들"
 
 msgid "Auth Group"
-msgstr ""
+msgstr "인증 그룹"
 
 msgid "Authentication"
-msgstr ""
+msgstr "인증"
 
 msgid "Authentication Type"
 msgstr ""
@@ -430,31 +434,31 @@ msgid "Authorization Required"
 msgstr "인증이 필요합니다"
 
 msgid "Auto Refresh"
-msgstr "자동 Refresh"
+msgstr "자동 갱신"
 
 msgid "Automatic"
-msgstr ""
+msgstr "자동"
 
 msgid "Automatic Homenet (HNCP)"
 msgstr ""
 
 msgid "Automatically check filesystem for errors before mounting"
-msgstr ""
+msgstr "마운트 전 파일 시스템의 에러를 자동으로 체크합니다."
 
 msgid "Automatically mount filesystems on hotplug"
-msgstr ""
+msgstr "핫 플러그로 파일 시스템을 자동으로 마운트 합니다."
 
 msgid "Automatically mount swap on hotplug"
-msgstr ""
+msgstr "핫 플러그로 스왑 영역을 자동으로 마운트 합니다"
 
 msgid "Automount Filesystem"
-msgstr ""
+msgstr "파일시스템 자동 마운트"
 
 msgid "Automount Swap"
-msgstr ""
+msgstr "스왑 영역 자동 마운트"
 
 msgid "Available"
-msgstr ""
+msgstr "사용 가능"
 
 msgid "Available packages"
 msgstr "이용 가능한 패키지"
@@ -484,10 +488,10 @@ msgid "Back to configuration"
 msgstr "설정으로 돌아가기"
 
 msgid "Back to overview"
-msgstr ""
+msgstr "개요로 이동"
 
 msgid "Back to scan results"
-msgstr ""
+msgstr "스캔 결과로 이동"
 
 msgid "Backup / Flash Firmware"
 msgstr "Firmware 백업 / Flash"
@@ -496,10 +500,10 @@ msgid "Backup / Restore"
 msgstr "백업 / 복구"
 
 msgid "Backup file list"
-msgstr ""
+msgstr "백업 파일 목록"
 
 msgid "Bad address specified!"
-msgstr ""
+msgstr "잘못된 주소입니다!"
 
 msgid "Band"
 msgstr ""
@@ -512,15 +516,15 @@ msgid ""
 "configuration files marked by opkg, essential base files and the user "
 "defined backup patterns."
 msgstr ""
-"아래는 백업할 파일 목록입니다.   이 목록은 opkg 이 수정되었다고 판단한 파일, "
-"필수 기본 파일 그리고 사용자가 패턴 정의로 백업하도록 지정한 것로 이루어져 있"
-"습니다."
+"다음은 백업 파일 목록입니다. 이 목록은 opkg 이 수정되었다고 판단한 파일,"
+"필수 기본 파일 그리고 사용자가 패턴 정의로 백업하도록 지정한 것로 이루어져"
+"있습니다."
 
 msgid "Bind interface"
-msgstr ""
+msgstr "인터페이스 바인드"
 
 msgid "Bind only to specific interfaces rather than wildcard address."
-msgstr ""
+msgstr "와일드카드 주소가 아닌 특정 인터페이스에만 바인드 합니다."
 
 msgid "Bind the tunnel to this interface (optional)."
 msgstr ""
@@ -532,44 +536,44 @@ msgid "Bogus NX Domain Override"
 msgstr ""
 
 msgid "Bridge"
-msgstr ""
+msgstr "브릿지"
 
 msgid "Bridge interfaces"
-msgstr "Bridge 인터페이스"
+msgstr "브릿지 인터페이스"
 
 msgid "Bridge unit number"
-msgstr ""
+msgstr "브릿지 유닛 번호"
 
 msgid "Bring up on boot"
 msgstr "부팅시 활성화"
 
 msgid "Broadcom 802.11%s Wireless Controller"
-msgstr ""
+msgstr "Broadcom 802.11%s 무선랜 컨트롤러"
 
 msgid "Broadcom BCM%04x 802.11 Wireless Controller"
-msgstr ""
+msgstr "브로드컴 BCM%04x 802.11 무선랜 컨트롤러"
 
 msgid "Buffered"
-msgstr "버퍼된 양"
+msgstr "버퍼"
 
 msgid ""
 "Build/distribution specific feed definitions. This file will NOT be "
 "preserved in any sysupgrade."
 msgstr ""
-"Build/distribution 지정 feed 목록입니다.  이 파일의 내용은 sysupgrade 시 초기"
-"화됩니다."
+"Build/distribution 고유 피드 정의입니다. 이 파일의 내용은 sysupgrade 시"
+"초기화 됩니다."
 
 msgid "CA certificate; if empty it will be saved after the first connection."
-msgstr ""
+msgstr "CA인증서; 비어있을 경우 첫 접속 후 저장됩니다."
 
 msgid "CPU usage (%)"
 msgstr "CPU 사용량 (%)"
 
 msgid "Cancel"
-msgstr ""
+msgstr "취소"
 
 msgid "Category"
-msgstr ""
+msgstr "카테고리"
 
 msgid "Chain"
 msgstr "체인"
@@ -578,7 +582,7 @@ msgid "Changes"
 msgstr "변경 사항"
 
 msgid "Changes applied."
-msgstr ""
+msgstr "변경이 적용되었습니다"
 
 msgid "Changes the administrator password for accessing the device"
 msgstr "장비 접근을 위한 관리자 암호를 변경합니다"
@@ -587,16 +591,16 @@ msgid "Channel"
 msgstr "채널"
 
 msgid "Check"
-msgstr ""
+msgstr "체크"
 
 msgid "Check filesystems before mount"
-msgstr ""
+msgstr "마운트 전 파일시스템 체크"
 
 msgid "Check this option to delete the existing networks from this radio."
-msgstr ""
+msgstr "이 무선 상에서 기존의 네트워크를 삭제할 경우 이 옵션을 체크하십시오."
 
 msgid "Checksum"
-msgstr ""
+msgstr "체크섬"
 
 msgid ""
 "Choose the firewall zone you want to assign to this interface. Select "
@@ -604,20 +608,20 @@ msgid ""
 "fill out the <em>create</em> field to define a new zone and attach the "
 "interface to it."
 msgstr ""
-"이 인터페이스에 할당하고자 하는 firewall zone 을 선택하세요. 연결된 zone 으로"
-"부터 인터페이스를 제거하고 싶다면 <em>unspecified</em> 를 선택하세요.  새로"
-"운 zone 을 정의하고 인터페이스 연결을 원한다면 <em>create</em> 항목을 입력하"
-"세요."
+"이 인터페이스에 할당하고자 하는 firewall zone 을 선택하세요. <em>설정 안함</em>"
+"을 선택하면 설정된 zone을 제거합니다. 또 <em>create</em>에 zone 이름을 입력하면"
+"새로운 zone을 정의해 인터페이스에 설정합니다."
+""
 
 msgid ""
 "Choose the network(s) you want to attach to this wireless interface or fill "
 "out the <em>create</em> field to define a new network."
 msgstr ""
-"이 무선랜 인터페이스와 연결하고자 하는 네트워크(들)을 선택하세요. 혹은 새로"
-"운 네트워크를 정의할려면 <em>create</em> 을 작성하세요."
+"이 무선랜 인터페이스와 연결하고자 하는 네트워크(들)을 선택하세요."
+"또는 <em>create</em> 을 작성해 새로운 네트워크를 정의하세요."
 
 msgid "Cipher"
-msgstr ""
+msgstr "암호화 방식"
 
 msgid "Cisco UDP encapsulation"
 msgstr ""
@@ -628,25 +632,26 @@ msgid ""
 "\"Perform reset\" (only possible with squashfs images)."
 msgstr ""
 "현재 설정 파일에 대한 tar 아카이브 다운로드를 원한다면 \"아카이브 생성\" 버튼"
-"을 클릭하세요.  Firmware 의 초기 설정 reset 을 원한다면 \"Reset 하기\" 를 클"
+"을 클릭하세요.  펌웨어의 초기 설정 리셋 을 원한다면 \"리셋 실행\" 를 클"
 "릭하세요. (squashfs 이미지들만 가능)."
 
 msgid "Client"
-msgstr ""
+msgstr "클라이언트"
 
 msgid "Client ID to send when requesting DHCP"
-msgstr "DHCP 요청시 전송할 Client ID"
+msgstr "DHCP 요청시 전송할 클라이언트 ID"
 
 msgid ""
 "Close inactive connection after the given amount of seconds, use 0 to "
 "persist connection"
-msgstr ""
+msgstr "설정한 초 후에 비활성화된 접속을 닫습니다. 0으로 설정한 경우 접속을"
+"유지합니다."
 
 msgid "Close list..."
 msgstr "목록 닫기..."
 
 msgid "Collecting data..."
-msgstr "Data 를 수집중입니다..."
+msgstr "데이터를 수집중입니다..."
 
 msgid "Command"
 msgstr "명령어"
@@ -660,39 +665,43 @@ msgid ""
 "workaround might cause interoperability issues and reduced robustness of key "
 "negotiation especially in environments with heavy traffic load."
 msgstr ""
+"키의 설치에 사용되는 EAPOL키 프레임의 재발 송신을 비활성화 함으로써, 클라이언트 사이드의 "
+"Key Reinstallation Attacks(KRACK)를 어렵게 합니다. 이 회피책은 상호 운용성 문제,"
+"특히 고 부하의 트래픽 환경에서의 키 네고시에이션의 신뢰성 저하의 원인이 될 수 있습니다."
+""
 
 msgid "Configuration"
 msgstr "설정"
 
 msgid "Configuration applied."
-msgstr ""
+msgstr "설정이 적용되었습니다."
 
 msgid "Configuration files will be kept."
-msgstr ""
+msgstr "설정 파일은 유지됩니다."
 
 msgid "Confirmation"
-msgstr "다시 확인"
+msgstr "확인"
 
 msgid "Connect"
-msgstr "연결"
+msgstr "접속"
 
 msgid "Connected"
-msgstr "연결 시간"
+msgstr "접속 시간"
 
 msgid "Connection Limit"
-msgstr ""
+msgstr "접속 제한"
 
 msgid "Connection to server fails when TLS cannot be used"
-msgstr ""
+msgstr "TLS를 사용하지 못할경우 서버에 접속하지 않습니다."
 
 msgid "Connections"
 msgstr "연결"
 
 msgid "Country"
-msgstr ""
+msgstr "국가"
 
 msgid "Country Code"
-msgstr ""
+msgstr "국가 코드"
 
 msgid "Cover the following interface"
 msgstr ""
@@ -2391,10 +2400,10 @@ msgid "Perfect Forward Secrecy"
 msgstr ""
 
 msgid "Perform reboot"
-msgstr "재부팅하기"
+msgstr "리부트 실행"
 
 msgid "Perform reset"
-msgstr "Reset 하기"
+msgstr "리셋 실행"
 
 msgid "Persistent Keep Alive"
 msgstr ""
@@ -3818,7 +3827,7 @@ msgid "unlimited"
 msgstr ""
 
 msgid "unspecified"
-msgstr ""
+msgstr "설정 안함"
 
 msgid "unspecified -or- create:"
 msgstr "unspecified -혹은- create:"
