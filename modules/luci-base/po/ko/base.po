@@ -26,10 +26,10 @@ msgid "(%s available)"
 msgstr "(%s 사용 가능)"
 
 msgid "(empty)"
-msgstr ""
+msgstr "(비었음)"
 
 msgid "(no interfaces attached)"
-msgstr ""
+msgstr "(인터페이스 없음)"
 
 msgid "-- Additional Field --"
 msgstr "-- 추가 항목 --"
@@ -56,7 +56,7 @@ msgid "15 Minute Load:"
 msgstr "15 분 부하:"
 
 msgid "4-character hexadecimal ID"
-msgstr ""
+msgstr "4자리 16진수 ID"
 
 msgid "464XLAT (CLAT)"
 msgstr ""
@@ -247,7 +247,7 @@ msgid "Add"
 msgstr "추가"
 
 msgid "Add local domain suffix to names served from hosts files"
-msgstr ""
+msgstr "호스트 파일에서 가져온 이름에 로컬 도메인 접미사 추가"
 
 msgid "Add new interface..."
 msgstr "새로운 인터페이스 추가..."
@@ -271,7 +271,7 @@ msgid "Advanced Settings"
 msgstr "고급 설정"
 
 msgid "Aggregate Transmit Power(ACTATP)"
-msgstr ""
+msgstr "송신 출력 어그리게이트(ACTATP)"
 
 msgid "Alert"
 msgstr "경고"
@@ -319,9 +319,11 @@ msgid ""
 "Also see <a href=\"https://www.sixxs.net/faq/connectivity/?faq=comparison"
 "\">Tunneling Comparison</a> on SIXXS"
 msgstr ""
+"SIXXS에 대한 <a href=\"https://www.sixxs.net/faq/connectivity/?faq=comparison"
+"\">터널링 방식 비교</a>도 참고하십시오."
 
 msgid "Always announce default router"
-msgstr ""
+msgstr "항상 기본 라우터로 알립니다."
 
 msgid "Annex"
 msgstr ""
@@ -369,7 +371,7 @@ msgid "Annex M G.992.5"
 msgstr ""
 
 msgid "Announce as default router even if no public prefix is available."
-msgstr ""
+msgstr "사용가능한 공용 접두사가 없어도 기본 라우터로 알립니다."
 
 msgid "Announced DNS domains"
 msgstr ""
@@ -406,14 +408,14 @@ msgstr "변경 적용중"
 
 msgid ""
 "Assign a part of given length of every public IPv6-prefix to this interface"
-msgstr ""
+msgstr "이 인터페이스에 지정된 모든 공용 IPv6 접두사의 일정 부분을 할당합니다."
 
 msgid "Assign interfaces..."
 msgstr "인터페이스 할당..."
 
 msgid ""
 "Assign prefix parts using this hexadecimal subprefix ID for this interface."
-msgstr "이 인터페이스의 16진수 subprefix를 사용하여 prefix를 할당합니다."
+msgstr "이 인터페이스의 16진수 subprefix를 사용하여 접두사를 할당합니다."
 
 msgid "Associated Stations"
 msgstr "연결된 스테이션들"
@@ -425,7 +427,7 @@ msgid "Authentication"
 msgstr "인증"
 
 msgid "Authentication Type"
-msgstr ""
+msgstr "인증 타입"
 
 msgid "Authoritative"
 msgstr ""
@@ -548,10 +550,10 @@ msgid "Bring up on boot"
 msgstr "부팅시 활성화"
 
 msgid "Broadcom 802.11%s Wireless Controller"
-msgstr "Broadcom 802.11%s 무선 LAN 컨트롤러"
+msgstr "Broadcom 802.11%s 무선 컨트롤러"
 
 msgid "Broadcom BCM%04x 802.11 Wireless Controller"
-msgstr "브로드컴 BCM%04x 802.11 무선 LAN 컨트롤러"
+msgstr "Broadcom BCM%04x 802.11 무선 컨트롤러"
 
 msgid "Buffered"
 msgstr "버퍼"
@@ -560,7 +562,7 @@ msgid ""
 "Build/distribution specific feed definitions. This file will NOT be "
 "preserved in any sysupgrade."
 msgstr ""
-"Build/distribution 고유 피드 정의입니다. 이 파일의 내용은 sysupgrade 시"
+"빌드/배포 고유 피드 정의입니다. 이 파일의 내용은 sysupgrade 시"
 "초기화 됩니다."
 
 msgid "CA certificate; if empty it will be saved after the first connection."
@@ -608,9 +610,9 @@ msgid ""
 "fill out the <em>create</em> field to define a new zone and attach the "
 "interface to it."
 msgstr ""
-"이 인터페이스에 할당하고자 하는 firewall zone 을 선택하세요. <em>설정 안함</em>"
-"을 선택하면 설정된 zone을 제거합니다. 또 <em>create</em>에 zone 이름을 입력하면"
-"새로운 zone을 정의해 인터페이스에 설정합니다."
+"이 인터페이스에 할당하고자 하는 방화벽 존 을 선택하세요. <em>설정 안함</em>"
+"을 선택하면 설정된 존을 제거합니다. 또 <em>create</em>에 존 이름을 입력하면"
+"새로운 존을 정의해 인터페이스에 설정합니다."
 ""
 
 msgid ""
@@ -624,7 +626,7 @@ msgid "Cipher"
 msgstr "암호화 방식"
 
 msgid "Cisco UDP encapsulation"
-msgstr ""
+msgstr "Cisco UDP 캡슐화"
 
 msgid ""
 "Click \"Generate archive\" to download a tar archive of the current "
@@ -728,24 +730,24 @@ msgid "Custom Interface"
 msgstr "새로운 인터페이스"
 
 msgid "Custom delegated IPv6-prefix"
-msgstr ""
+msgstr "임의의 위임된 IPv6-접두사"
 
 msgid ""
 "Custom feed definitions, e.g. private feeds. This file can be preserved in a "
 "sysupgrade."
 msgstr ""
-"개인 피드등에 사용되는 커스텀 피드 정의입니다. 이 파일은 sysupgrade 시에"
+"개인 피드등에 사용되는 임의 피드 정의입니다. 이 파일은 sysupgrade 시에도"
 "유지시킬 수 있습니다."
 
 msgid "Custom feeds"
-msgstr "커스텀 피드"
+msgstr "임의 피드"
 
 msgid ""
 "Customizes the behaviour of the device <abbr title=\"Light Emitting Diode"
 "\">LED</abbr>s if possible."
 msgstr ""
-"장치에 부착된 <abbr title=\"Light Emitting Diode\">LED</abbr> 들의 "
-"작동 방식을 변경합니다."
+"장치에 부착된 <abbr title=\"Light Emitting Diode\">LED</abbr>의"
+"작동 방식을 설정합니다."
 
 msgid "DHCP Leases"
 msgstr "DHCP 임대 정보"
@@ -927,7 +929,7 @@ msgstr ""
 "<abbr title=\"Domain Name System\">DNS</abbr>-포워더 기능을 제공합니다."
 
 msgid "Do not cache negative replies, e.g. for not existing domains"
-msgstr ""
+msgstr "부정적 응답을 캐시하지 않습니다 (예: 존재하지 않는 도메인에 대한 응답)"
 
 msgid "Do not forward requests that cannot be answered by public name servers"
 msgstr "퍼블릭 DNS 서버가 응답하지 못하는 요청을 포워드하지 않습니다"
@@ -942,7 +944,7 @@ msgid "Domain whitelist"
 msgstr "도메인 화이트리스트"
 
 msgid "Don't Fragment"
-msgstr ""
+msgstr "단편화 금지"
 
 msgid ""
 "Don't forward <abbr title=\"Domain Name System\">DNS</abbr>-Requests without "
@@ -961,7 +963,7 @@ msgid "Downstream SNR offset"
 msgstr "다운스트림 SNR 오프셋"
 
 msgid "Dropbear Instance"
-msgstr ""
+msgstr "Dropbear 인스턴스"
 
 msgid ""
 "Dropbear offers <abbr title=\"Secure Shell\">SSH</abbr> network shell access "
@@ -1056,7 +1058,7 @@ msgid "Enable mirroring of outgoing packets"
 msgstr "발신 패킷의 미러링 활성화"
 
 msgid "Enable the DF (Don't Fragment) flag of the encapsulating packets."
-msgstr ""
+msgstr "캡슐화된 패킷에 대해 DF(단편화 금지) 플래그를 활성화"
 
 msgid "Enable this mount"
 msgstr "마운트 활성화"
@@ -1079,7 +1081,7 @@ msgid "Enables the Spanning Tree Protocol on this bridge"
 msgstr "이 브릿지에 스패닝 트리 프로토콜을 활성화합니다"
 
 msgid "Encapsulation mode"
-msgstr ""
+msgstr "캡슐화 모드"
 
 msgid "Encryption"
 msgstr "암호화"
@@ -1097,7 +1099,7 @@ msgid "Error"
 msgstr "오류"
 
 msgid "Errored seconds (ES)"
-msgstr ""
+msgstr "장애 시간(ES)"
 
 msgid "Ethernet Adapter"
 msgstr "이더넷 어댑터"
@@ -1122,10 +1124,10 @@ msgid "External"
 msgstr "외부"
 
 msgid "External R0 Key Holder List"
-msgstr ""
+msgstr "외부 R0 키 홀더 목록"
 
 msgid "External R1 Key Holder List"
-msgstr ""
+msgstr "외부 R1 키 홀더 목록"
 
 msgid "External system log server"
 msgstr "외부 시스템 로그 서버"
@@ -1209,13 +1211,13 @@ msgid "Flash image..."
 msgstr "이미지로 갱신..."
 
 msgid "Flash new firmware image"
-msgstr "새로운 펌웨어 이미지로 갱신"
+msgstr "새로운 펌웨어 이미지로 플래시"
 
 msgid "Flash operations"
-msgstr "갱신 작업"
+msgstr "플래시 작업"
 
 msgid "Flashing..."
-msgstr "갱신중..."
+msgstr "플래시중..."
 
 msgid "Force"
 msgstr "강제하기"
@@ -1239,7 +1241,7 @@ msgid "Force use of NAT-T"
 msgstr "NAT-T 강제 사용"
 
 msgid "Form token mismatch"
-msgstr "Form token 불일치"
+msgstr "폼 토큰 불일치"
 
 msgid "Forward DHCP traffic"
 msgstr "DHCP 트래픽 포워드"
@@ -1279,7 +1281,7 @@ msgid "GHz"
 msgstr ""
 
 msgid "GPRS only"
-msgstr ""
+msgstr "GPRS 만"
 
 msgid "Gateway"
 msgstr "게이트웨이"
@@ -1300,13 +1302,13 @@ msgid "Generate Config"
 msgstr "설정 생성"
 
 msgid "Generate PMK locally"
-msgstr ""
+msgstr "로컬에서 PMK 생성"
 
 msgid "Generate archive"
 msgstr "아카이브 생성"
 
 msgid "Generic 802.11%s Wireless Controller"
-msgstr "일반 802.11%s 무선 LAN 컨트롤러"
+msgstr "일반 802.11%s 무선 컨트롤러"
 
 msgid "Given password confirmation did not match, password not changed!"
 msgstr "입력한 패스워드가 일치하지 않습니다. 패스워드는 변경되지 않았습니다!"
@@ -1361,7 +1363,7 @@ msgstr ""
 "수 있습니다."
 
 msgid "Hermes 802.11b Wireless Controller"
-msgstr "Hermes 802.11b 무선 LAN 컨트롤러"
+msgstr "Hermes 802.11b 무선 컨트롤러"
 
 msgid "Hide <abbr title=\"Extended Service Set Identifier\">ESSID</abbr>"
 msgstr "<abbr title=\"Extended Service Set Identifier\">ESSID</abbr> 숨기기"
@@ -1373,7 +1375,7 @@ msgid "Host entries"
 msgstr "호스트 목록들"
 
 msgid "Host expiry timeout"
-msgstr ""
+msgstr "호스트 만기 타임아웃"
 
 msgid "Host-<abbr title=\"Internet Protocol Address\">IP</abbr> or Network"
 msgstr "Host-<abbr title=\"Internet Protocol Address\">IP</abbr> 혹은 네트워크"
@@ -1430,10 +1432,10 @@ msgid "IPv4 only"
 msgstr "IPv4 만"
 
 msgid "IPv4 prefix"
-msgstr ""
+msgstr "IPv4 접두사"
 
 msgid "IPv4 prefix length"
-msgstr "IPv4 prefix 길이"
+msgstr "IPv4 접두사 길이"
 
 msgid "IPv4-Address"
 msgstr "IPv4-주소"
@@ -1454,7 +1456,7 @@ msgid "IPv6 Settings"
 msgstr "IPv6 설정"
 
 msgid "IPv6 ULA-Prefix"
-msgstr ""
+msgstr "IPv6 ULA-접두사"
 
 msgid "IPv6 WAN Status"
 msgstr "IPv6 WAN 상태"
@@ -1463,7 +1465,7 @@ msgid "IPv6 address"
 msgstr "IPv6 주소"
 
 msgid "IPv6 address delegated to the local tunnel endpoint (optional)"
-msgstr ""
+msgstr "로컬 터널 엔드포인트에 위임된 IPv6 주소 (선택 사항)"
 
 msgid "IPv6 assignment hint"
 msgstr "IPv6 할당 hint"
@@ -1478,16 +1480,16 @@ msgid "IPv6 only"
 msgstr "IPv6 만"
 
 msgid "IPv6 prefix"
-msgstr ""
+msgstr "IPv6 접두사"
 
 msgid "IPv6 prefix length"
-msgstr "IPv6 prefix 길이"
+msgstr "IPv6 접두사 길이"
 
 msgid "IPv6 routed prefix"
 msgstr ""
 
 msgid "IPv6 suffix"
-msgstr ""
+msgstr "IPv6 접미사"
 
 msgid "IPv6-Address"
 msgstr "IPv6-주소"
@@ -1523,10 +1525,10 @@ msgid ""
 msgstr "지정된 경우, 고정 장치 노드 대신 설정된 파티션 라벨을 사용하여 마운트 합니다."
 
 msgid "If unchecked, no default route is configured"
-msgstr "체크하지 않을 경우, 기본 route 가 설정되지 않습니다"
+msgstr "체크하지 않을 경우, 기본 경로를 설정하지 않습니다."
 
 msgid "If unchecked, the advertised DNS server addresses are ignored"
-msgstr "체크하지 않을 경우, 사용하도록 권장된 DNS 주소는 무시됩니다"
+msgstr "체크하지 않을 경우, 통지된 DNS 주소는 무시됩니다"
 
 msgid ""
 "If your physical memory is insufficient unused data can be temporarily "
@@ -1535,7 +1537,9 @@ msgid ""
 "slow process as the swap-device cannot be accessed with the high datarates "
 "of the <abbr title=\"Random Access Memory\">RAM</abbr>."
 msgstr "물리 메모리가 부족할 경우 사용되지 않은 데이터를 일시적으로 스왑 장치에 스왑하여 <abbr title="
-"\"Random Access Memory\">RAM</abbr>의 사용 가능 영역을 확보할 수 있습니다. 다만 스왑 장치는 <abbr" "title=\"Random Access Memory\">RAM</abbr>과 같이 고속으로 접근할 수 없으므로 데이터가 매우 느리게" "처리됩니다."
+"\"Random Access Memory\">RAM</abbr>의 사용 가능 영역을 확보할 수 있습니다. 다만 스왑 장치는 "
+"<abbr" "title=\"Random Access Memory\">RAM</abbr>과 같이 고속으로 접근할 수 없으므로 데이터가 "
+"매우 느리게 처리됩니다."
 
 msgid "Ignore <code>/etc/hosts</code>"
 msgstr "<code>/etc/hosts</code> 파일 무시"
@@ -1569,16 +1573,16 @@ msgid "Info"
 msgstr "정보"
 
 msgid "Initscript"
-msgstr "Init 스크립트"
+msgstr "시작 스크립트"
 
 msgid "Initscripts"
-msgstr "Init 스크립트"
+msgstr "시작 스크립트"
 
 msgid "Install"
 msgstr "설치"
 
 msgid "Install iputils-traceroute6 for IPv6 traceroute"
-msgstr ""
+msgstr "IPv6 traceroute를 위해 iputills-traceroute6 설치"
 
 msgid "Install package %q"
 msgstr "패키지 %q 설치"
@@ -1635,7 +1639,7 @@ msgid "Invalid VLAN ID given! Only IDs between %d and %d are allowed."
 msgstr "유효하지 않은 VLAN ID 입니다! ID에는 %d 에서 %d 사이의 값만 입력 가능합니다."
 
 msgid "Invalid VLAN ID given! Only unique IDs are allowed"
-msgstr "유효하지 않은 VLAN ID 입니다! unique ID를 입력하십시오."
+msgstr "유효하지 않은 VLAN ID 입니다! 고유 ID를 입력하십시오."
 
 msgid "Invalid username and/or password! Please try again."
 msgstr "사용자 이름 또는 패스워드가 유효하지 않습니다! 다시 한번 입력하십시오."
@@ -2005,28 +2009,28 @@ msgid "Mount point"
 msgstr "마운트 지점"
 
 msgid "Mount swap not specifically configured"
-msgstr ""
+msgstr "명확히 설정되지 않은 스왑 파티션을 마운트 합니다."
 
 msgid "Mounted file systems"
-msgstr ""
+msgstr "마운트중인 파일 시스템"
 
 msgid "Move down"
-msgstr ""
+msgstr "아래로"
 
 msgid "Move up"
-msgstr ""
+msgstr "위로"
 
 msgid "Multicast address"
-msgstr ""
+msgstr "멀티캐스트 주소"
 
 msgid "NAS ID"
 msgstr ""
 
 msgid "NAT-T Mode"
-msgstr ""
+msgstr "NAT-T 모드"
 
 msgid "NAT64 Prefix"
-msgstr ""
+msgstr "NAT64 접두사"
 
 msgid "NCM"
 msgstr ""
@@ -2545,7 +2549,7 @@ msgid "RX Rate"
 msgstr "수신 속도"
 
 msgid "RaLink 802.11%s Wireless Controller"
-msgstr "RaLink 802.11%s 무선 LAN 컨트롤러"
+msgstr "RaLink 802.11%s 무선 컨트롤러"
 
 msgid "Radius-Accounting-Port"
 msgstr ""
