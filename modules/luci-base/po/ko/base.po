@@ -1173,7 +1173,7 @@ msgstr "현재 인식 가능한 모든 파일 시스템과 스왑 영역을 검�
 "검색 결과에 기반해 기본 설정을 변경합니다."
 
 msgid "Find and join network"
-msgstr "네트워크 검색 및 연결합니다"
+msgstr "네트워크 검색 및 연결"
 
 msgid "Find package"
 msgstr "패키지 찾기"
@@ -1533,7 +1533,7 @@ msgid ""
 "\"Random Access Memory\">RAM</abbr>. Be aware that swapping data is a very "
 "slow process as the swap-device cannot be accessed with the high datarates "
 "of the <abbr title=\"Random Access Memory\">RAM</abbr>."
-msgstr "물리 메모리가 부족할 경우 사용되지 않은 데이터를 일시적으로 스왑 장치에 스왑하여 <abbr title="
+msgstr "물리 메모리가 부족할 경우 나머지 데이터를 일시적으로 스왑 장치에 스왑하여 <abbr title="
 "\"Random Access Memory\">RAM</abbr>의 사용 가능 영역을 확보할 수 있습니다. 다만 스왑 장치는 "
 "<abbr" "title=\"Random Access Memory\">RAM</abbr>과 같이 고속으로 접근할 수 없으므로 데이터가 "
 "매우 느리게 처리됩니다."
@@ -1658,7 +1658,7 @@ msgid "Join Network"
 msgstr "네트워크 연결"
 
 msgid "Join Network: Wireless Scan"
-msgstr "네트워크 연결: 무선랜 스캔 결과"
+msgstr "네트워크 연결: 무선 LAN 스캔 결과"
 
 msgid "Joining Network: %q"
 msgstr "네트워크 연결중: %q"
@@ -1706,7 +1706,7 @@ msgid "Language and Style"
 msgstr "언어와 스타일"
 
 msgid "Latency"
-msgstr "레이턴시"
+msgstr "지연 시간"
 
 msgid "Leaf"
 msgstr ""
